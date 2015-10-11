@@ -9,9 +9,10 @@
 
 # NO, NOT SINCE 1938!
 
-def speak_to_grandma(speech = "Hello Grandma")
+def speak_to_grandma(speech)
   if speech == speech.upcase
-    puts "NO, NOT SINCE 1938!"
+    return "NO, NOT SINCE 1938!"
   else
-    puts "HUH?! SPEAK UP, SONNY!"
+    return "HUH?! SPEAK UP, SONNY!"
+  end
 end
