@@ -1,3 +1,22 @@
+
+def speak_to_grandma(speak)
+  if speak == "WHAT DID YOU EAT TODAY?".upcase
+      return "NO, NOT SINCE 1938!" 
+  else speak == "Hi nana, how are you?"
+      return "HUH?! SPEAK UP, SONNY!"
+  end
+end
+
+
+
+
+
+
+
+
+
+
+
 # Write a speak_to_grandma method.
 
 # Whatever you say to grandma, she should respond with
