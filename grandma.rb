@@ -6,5 +6,13 @@
 
 # If you shout, she can hear you (or at least she thinks so) 
 # and yells back
-
 # NO, NOT SINCE 1938!
+def speak_to_grandma(string)
+if string ==string.upcase
+  return "NO, NOT SINCE 1938!"
+elsif string=="I LOVE YOU GRANDMA!"
+  return "I LOVE YOU TOO PUMKIN!"
+else
+  return "HUH?! SPEAK UP, SONNY!"
+end
+  end
